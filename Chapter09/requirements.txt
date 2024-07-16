@@ -6,3 +6,6 @@ flower==1.2.0
 celery==5.2.7
 stripe==4.0.2
 WeasyPrint==56.1
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
