@@ -2,8 +2,10 @@ asgiref==3.5.2
 Django~=4.1.0
 sqlparse==0.4.2
 Pillow==9.2.0
-flower==1.2.0
+flower==2.0.0
 celery==5.2.7
 stripe==4.0.2
 WeasyPrint==56.1
 redis==4.3.4
+tornado>=6.4.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
