@@ -7,3 +7,5 @@ celery==5.2.7
 stripe==4.0.2
 WeasyPrint==56.1
 redis==4.3.4
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
