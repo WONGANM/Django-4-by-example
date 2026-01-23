@@ -5,5 +5,5 @@ Pillow==9.2.0
 flower==1.2.0
 celery==5.2.7
 stripe==4.0.2
-WeasyPrint==56.1
+WeasyPrint==68.0
 redis==4.3.4
